@@ -1,3 +1,9 @@
+
+var img;
+function preload() {
+	img = loadImage("images/wood.jpg")
+}
+
 function setup() {
 createCanvas(480, 320);
 }
